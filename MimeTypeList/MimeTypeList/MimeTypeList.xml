@@ -1,0 +1,2053 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimeTypeList</name>
+    </assembly>
+    <members>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType">
+            <summary> Application mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.fsharp_script">
+            <summary> application/fsharp-script </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.msaccess">
+            <summary> application/msaccess </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.msword">
+            <summary> application/msword </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.octet_stream">
+            <summary> application/octet-stream </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.onenote">
+            <summary> application/onenote </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.postscript">
+            <summary> application/postscript </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.step">
+            <summary> application/step </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.vnd_ms_excel">
+            <summary> application/vnd.ms-excel </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.vnd_ms_powerpoint">
+            <summary> application/vnd.ms-powerpoint </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.vnd_ms_works">
+            <summary> application/vnd.ms-works </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.vnd_visio">
+            <summary> application/vnd.visio </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.x_director">
+            <summary> application/x-director </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.x_shockwave_flash">
+            <summary> application/x-shockwave-flash </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.x_x509_ca_cert">
+            <summary> application/x-x509-ca-cert </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.x_zip_compressed">
+            <summary> application/x-zip-compressed </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.xhtml_xml">
+            <summary> application/xhtml+xml </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.xml">
+            <summary> application/xml </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.ApplicationMimeType.#ctor">
+            <summary> Internal default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.AudioMimeType">
+            <summary> Audio mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.aac">
+            <summary> audio/aac </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.aiff">
+            <summary> audio/aiff </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.basic">
+            <summary> audio/basic </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.mid">
+            <summary> audio/mid </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.wav">
+            <summary> audio/wav </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.x_m4a">
+            <summary> audio/x-m4a </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.x_mpegurl">
+            <summary> audio/x-mpegurl </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.x_pn_realaudio">
+            <summary> audio/x-pn-realaudio </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.AudioMimeType.x_smd">
+            <summary> audio/x-smd </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.AudioMimeType.#ctor">
+            <summary> Default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.ImageMimeType">
+            <summary> Image mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.bmp">
+            <summary> image/bmp </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.jpeg">
+            <summary> image/jpeg </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.pict">
+            <summary> image/pict </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.png">
+            <summary> image/png </summary>
+            <remarks>Defined in [RFC-2045], [RFC-2048]</remarks>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.x_png">
+            <summary> image/x-png </summary>
+            <remarks>See https://www.w3.org/TR/PNG/#A-Media-type :"It is recommended that implementations also recognize the media type "image/x-png"."</remarks>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.tiff">
+            <summary> image/tiff </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.x_macpaint">
+            <summary> image/x-macpaint </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.ImageMimeType.x_quicktime">
+            <summary> image/x-quicktime </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.ImageMimeType.#ctor">
+            <summary> Internal default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.MessageMimeType">
+            <summary> Message mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.MessageMimeType.rfc822">
+            <summary> message/rfc822 </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.MessageMimeType.#ctor">
+            <summary> Default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.TextMimeType">
+            <summary> Text mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.TextMimeType.html">
+            <summary> text/html </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.TextMimeType.plain">
+            <summary> text/plain </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.TextMimeType.scriptlet">
+            <summary> text/scriptlet </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.TextMimeType.xml">
+            <summary> text/xml </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.TextMimeType.#ctor">
+            <summary> Internal default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.VideoMimeType">
+            <summary> Video mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType._3gpp">
+            <summary> video/3gpp </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType._3gpp2">
+            <summary> video/3gpp2 </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.mp4">
+            <summary> video/mp4 </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.mpeg">
+            <summary> video/mpeg </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.quicktime">
+            <summary> video/quicktime </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.vnd_dlna_mpeg_tts">
+            <summary> video/vnd.dlna.mpeg-tts </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.x_dv">
+            <summary> video/x-dv </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.x_la_asf">
+            <summary> video/x-la-asf </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.VideoMimeType.x_ms_asf">
+            <summary> video/x-ms-asf </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.VideoMimeType.#ctor">
+            <summary> Internal default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypeNamespaces.XWorldMimeType">
+            <summary> X-World mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypeNamespaces.XWorldMimeType.x_vrml">
+            <summary> x-world/x-vrml </summary>
+        </member>
+        <member name="M:MimeTypeList.MimeTypeNamespaces.XWorldMimeType.#ctor">
+            <summary> Internal default constructor. </summary>
+        </member>
+        <member name="T:MimeTypeList.FileExtensions">
+            <summary> A list of mime types referenced by extension. </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._3gp2">
+            <summary> *.3gp2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._3gpp">
+            <summary> *.3gpp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._7z">
+            <summary> *.7z </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aa">
+            <summary> *.aa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._AAC">
+            <summary> *.AAC </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aaf">
+            <summary> *.aaf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aax">
+            <summary> *.aax </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ac3">
+            <summary> *.ac3 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aca">
+            <summary> *.aca </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accda">
+            <summary> *.accda </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accdb">
+            <summary> *.accdb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accdc">
+            <summary> *.accdc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accde">
+            <summary> *.accde </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accdr">
+            <summary> *.accdr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accdt">
+            <summary> *.accdt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accdw">
+            <summary> *.accdw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._accft">
+            <summary> *.accft </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._acx">
+            <summary> *.acx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._AddIn">
+            <summary> *.AddIn </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ade">
+            <summary> *.ade </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._adobebridge">
+            <summary> *.adobebridge </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._adp">
+            <summary> *.adp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ADT">
+            <summary> *.ADT </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ADTS">
+            <summary> *.ADTS </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._afm">
+            <summary> *.afm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ai">
+            <summary> *.ai </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aif">
+            <summary> *.aif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aifc">
+            <summary> *.aifc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aiff">
+            <summary> *.aiff </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._air">
+            <summary> *.air </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._amc">
+            <summary> *.amc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._anx">
+            <summary> *.anx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._apk">
+            <summary> *.apk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._application">
+            <summary> *.application </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._art">
+            <summary> *.art </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asa">
+            <summary> *.asa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asax">
+            <summary> *.asax </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ascx">
+            <summary> *.ascx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asd">
+            <summary> *.asd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asf">
+            <summary> *.asf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ashx">
+            <summary> *.ashx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asi">
+            <summary> *.asi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asm">
+            <summary> *.asm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asmx">
+            <summary> *.asmx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._aspx">
+            <summary> *.aspx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asr">
+            <summary> *.asr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._asx">
+            <summary> *.asx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._atom">
+            <summary> *.atom </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._au">
+            <summary> *.au </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._avi">
+            <summary> *.avi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._axa">
+            <summary> *.axa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._axs">
+            <summary> *.axs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._axv">
+            <summary> *.axv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._bas">
+            <summary> *.bas </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._bcpio">
+            <summary> *.bcpio </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._bin">
+            <summary> *.bin </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._bmp">
+            <summary> *.bmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._c">
+            <summary> *.c </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cab">
+            <summary> *.cab </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._caf">
+            <summary> *.caf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._calx">
+            <summary> *.calx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cat">
+            <summary> *.cat </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cc">
+            <summary> *.cc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cd">
+            <summary> *.cd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cdda">
+            <summary> *.cdda </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cdf">
+            <summary> *.cdf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cer">
+            <summary> *.cer </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cfg">
+            <summary> *.cfg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._chm">
+            <summary> *.chm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._class">
+            <summary> *.class </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._clp">
+            <summary> *.clp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cmd">
+            <summary> *.cmd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cmx">
+            <summary> *.cmx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cnf">
+            <summary> *.cnf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cod">
+            <summary> *.cod </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._config">
+            <summary> *.config </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._contact">
+            <summary> *.contact </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._coverage">
+            <summary> *.coverage </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cpio">
+            <summary> *.cpio </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cpp">
+            <summary> *.cpp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._crd">
+            <summary> *.crd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._crl">
+            <summary> *.crl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._crt">
+            <summary> *.crt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cs">
+            <summary> *.cs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._csdproj">
+            <summary> *.csdproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._csh">
+            <summary> *.csh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._csproj">
+            <summary> *.csproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._css">
+            <summary> *.css </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._csv">
+            <summary> *.csv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cur">
+            <summary> *.cur </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._cxx">
+            <summary> *.cxx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dat">
+            <summary> *.dat </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._datasource">
+            <summary> *.datasource </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dbproj">
+            <summary> *.dbproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dcr">
+            <summary> *.dcr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._def">
+            <summary> *.def </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._deploy">
+            <summary> *.deploy </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._der">
+            <summary> *.der </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dgml">
+            <summary> *.dgml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dib">
+            <summary> *.dib </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dif">
+            <summary> *.dif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dir">
+            <summary> *.dir </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._disco">
+            <summary> *.disco </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._divx">
+            <summary> *.divx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dll">
+            <summary> *.dll </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dll_config">
+            <summary> *.dll.config </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dlm">
+            <summary> *.dlm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._doc">
+            <summary> *.doc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._docm">
+            <summary> *.docm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._docx">
+            <summary> *.docx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dot">
+            <summary> *.dot </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dotm">
+            <summary> *.dotm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dotx">
+            <summary> *.dotx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dsp">
+            <summary> *.dsp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dsw">
+            <summary> *.dsw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dtd">
+            <summary> *.dtd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dtsConfig">
+            <summary> *.dtsConfig </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dv">
+            <summary> *.dv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dvi">
+            <summary> *.dvi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dwf">
+            <summary> *.dwf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dwg">
+            <summary> *.dwg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dwp">
+            <summary> *.dwp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dxf">
+            <summary> *.dxf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._dxr">
+            <summary> *.dxr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._eml">
+            <summary> *.eml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._emz">
+            <summary> *.emz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._eot">
+            <summary> *.eot </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._eps">
+            <summary> *.eps </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._es">
+            <summary> *.es </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._etl">
+            <summary> *.etl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._etx">
+            <summary> *.etx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._evy">
+            <summary> *.evy </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._exe">
+            <summary> *.exe </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._exe_config">
+            <summary> *.exe.config </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._fdf">
+            <summary> *.fdf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._fif">
+            <summary> *.fif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._filters">
+            <summary> *.filters </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._fla">
+            <summary> *.fla </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._flac">
+            <summary> *.flac </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._flr">
+            <summary> *.flr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._flv">
+            <summary> *.flv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._fsscript">
+            <summary> *.fsscript </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._fsx">
+            <summary> *.fsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._generictest">
+            <summary> *.generictest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._gif">
+            <summary> *.gif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._gpx">
+            <summary> *.gpx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._group">
+            <summary> *.group </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._gsm">
+            <summary> *.gsm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._gtar">
+            <summary> *.gtar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._gz">
+            <summary> *.gz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._h">
+            <summary> *.h </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hdf">
+            <summary> *.hdf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hdml">
+            <summary> *.hdml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hhc">
+            <summary> *.hhc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hhk">
+            <summary> *.hhk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hhp">
+            <summary> *.hhp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hlp">
+            <summary> *.hlp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hpp">
+            <summary> *.hpp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hqx">
+            <summary> *.hqx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hta">
+            <summary> *.hta </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._htc">
+            <summary> *.htc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._htm">
+            <summary> *.htm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._html">
+            <summary> *.html </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._htt">
+            <summary> *.htt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxa">
+            <summary> *.hxa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxc">
+            <summary> *.hxc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxd">
+            <summary> *.hxd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxe">
+            <summary> *.hxe </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxf">
+            <summary> *.hxf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxh">
+            <summary> *.hxh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxi">
+            <summary> *.hxi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxk">
+            <summary> *.hxk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxq">
+            <summary> *.hxq </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxr">
+            <summary> *.hxr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxs">
+            <summary> *.hxs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxt">
+            <summary> *.hxt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxv">
+            <summary> *.hxv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxw">
+            <summary> *.hxw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._hxx">
+            <summary> *.hxx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._i">
+            <summary> *.i </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ico">
+            <summary> *.ico </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ics">
+            <summary> *.ics </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._idl">
+            <summary> *.idl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ief">
+            <summary> *.ief </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._iii">
+            <summary> *.iii </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._inc">
+            <summary> *.inc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._inf">
+            <summary> *.inf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ini">
+            <summary> *.ini </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._inl">
+            <summary> *.inl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ins">
+            <summary> *.ins </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ipa">
+            <summary> *.ipa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ipg">
+            <summary> *.ipg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ipproj">
+            <summary> *.ipproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ipsw">
+            <summary> *.ipsw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._iqy">
+            <summary> *.iqy </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._isp">
+            <summary> *.isp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ite">
+            <summary> *.ite </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._itlp">
+            <summary> *.itlp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._itms">
+            <summary> *.itms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._itpc">
+            <summary> *.itpc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._IVF">
+            <summary> *.IVF </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jar">
+            <summary> *.jar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._java">
+            <summary> *.java </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jck">
+            <summary> *.jck </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jcz">
+            <summary> *.jcz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jfif">
+            <summary> *.jfif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jnlp">
+            <summary> *.jnlp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jpb">
+            <summary> *.jpb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jpe">
+            <summary> *.jpe </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jpeg">
+            <summary> *.jpeg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jpg">
+            <summary> *.jpg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._js">
+            <summary> *.js </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._json">
+            <summary> *.json </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jsx">
+            <summary> *.jsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._jsxbin">
+            <summary> *.jsxbin </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._latex">
+            <summary> *.latex </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._library_ms">
+            <summary> *.library-ms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lit">
+            <summary> *.lit </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._loadtest">
+            <summary> *.loadtest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lpk">
+            <summary> *.lpk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lsf">
+            <summary> *.lsf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lst">
+            <summary> *.lst </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lsx">
+            <summary> *.lsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._lzh">
+            <summary> *.lzh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m13">
+            <summary> *.m13 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m14">
+            <summary> *.m14 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m1v">
+            <summary> *.m1v </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m2t">
+            <summary> *.m2t </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m2ts">
+            <summary> *.m2ts </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m2v">
+            <summary> *.m2v </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m3u">
+            <summary> *.m3u </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m3u8">
+            <summary> *.m3u8 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m4a">
+            <summary> *.m4a </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m4b">
+            <summary> *.m4b </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m4p">
+            <summary> *.m4p </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m4r">
+            <summary> *.m4r </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._m4v">
+            <summary> *.m4v </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mac">
+            <summary> *.mac </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mak">
+            <summary> *.mak </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._man">
+            <summary> *.man </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._manifest">
+            <summary> *.manifest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._map">
+            <summary> *.map </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._master">
+            <summary> *.master </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mbox">
+            <summary> *.mbox </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mda">
+            <summary> *.mda </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mdb">
+            <summary> *.mdb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mde">
+            <summary> *.mde </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mdp">
+            <summary> *.mdp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._me">
+            <summary> *.me </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mfp">
+            <summary> *.mfp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mht">
+            <summary> *.mht </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mhtml">
+            <summary> *.mhtml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mid">
+            <summary> *.mid </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._midi">
+            <summary> *.midi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mix">
+            <summary> *.mix </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mk">
+            <summary> *.mk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mk3d">
+            <summary> *.mk3d </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mka">
+            <summary> *.mka </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mkv">
+            <summary> *.mkv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mmf">
+            <summary> *.mmf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mno">
+            <summary> *.mno </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mny">
+            <summary> *.mny </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mod">
+            <summary> *.mod </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mov">
+            <summary> *.mov </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._movie">
+            <summary> *.movie </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mp2">
+            <summary> *.mp2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mp2v">
+            <summary> *.mp2v </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mp3">
+            <summary> *.mp3 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mp4">
+            <summary> *.mp4 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mp4v">
+            <summary> *.mp4v </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpa">
+            <summary> *.mpa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpe">
+            <summary> *.mpe </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpeg">
+            <summary> *.mpeg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpf">
+            <summary> *.mpf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpg">
+            <summary> *.mpg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpp">
+            <summary> *.mpp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mpv2">
+            <summary> *.mpv2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mqv">
+            <summary> *.mqv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ms">
+            <summary> *.ms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._msg">
+            <summary> *.msg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._msi">
+            <summary> *.msi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mso">
+            <summary> *.mso </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mts">
+            <summary> *.mts </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mtx">
+            <summary> *.mtx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mvb">
+            <summary> *.mvb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mvc">
+            <summary> *.mvc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._mxp">
+            <summary> *.mxp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._nc">
+            <summary> *.nc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._nsc">
+            <summary> *.nsc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._nws">
+            <summary> *.nws </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ocx">
+            <summary> *.ocx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._oda">
+            <summary> *.oda </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odb">
+            <summary> *.odb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odc">
+            <summary> *.odc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odf">
+            <summary> *.odf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odg">
+            <summary> *.odg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odh">
+            <summary> *.odh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odi">
+            <summary> *.odi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odl">
+            <summary> *.odl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odm">
+            <summary> *.odm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odp">
+            <summary> *.odp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ods">
+            <summary> *.ods </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._odt">
+            <summary> *.odt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._oga">
+            <summary> *.oga </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ogg">
+            <summary> *.ogg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ogv">
+            <summary> *.ogv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ogx">
+            <summary> *.ogx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._one">
+            <summary> *.one </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._onea">
+            <summary> *.onea </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._onepkg">
+            <summary> *.onepkg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._onetmp">
+            <summary> *.onetmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._onetoc">
+            <summary> *.onetoc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._onetoc2">
+            <summary> *.onetoc2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._opus">
+            <summary> *.opus </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._orderedtest">
+            <summary> *.orderedtest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._osdx">
+            <summary> *.osdx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._otf">
+            <summary> *.otf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._otg">
+            <summary> *.otg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._oth">
+            <summary> *.oth </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._otp">
+            <summary> *.otp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ots">
+            <summary> *.ots </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ott">
+            <summary> *.ott </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._oxt">
+            <summary> *.oxt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p10">
+            <summary> *.p10 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p12">
+            <summary> *.p12 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p7b">
+            <summary> *.p7b </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p7c">
+            <summary> *.p7c </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p7m">
+            <summary> *.p7m </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p7r">
+            <summary> *.p7r </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._p7s">
+            <summary> *.p7s </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pbm">
+            <summary> *.pbm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pcast">
+            <summary> *.pcast </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pct">
+            <summary> *.pct </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pcx">
+            <summary> *.pcx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pcz">
+            <summary> *.pcz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pdf">
+            <summary> *.pdf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pfb">
+            <summary> *.pfb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pfm">
+            <summary> *.pfm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pfx">
+            <summary> *.pfx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pgm">
+            <summary> *.pgm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pic">
+            <summary> *.pic </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pict">
+            <summary> *.pict </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pkgdef">
+            <summary> *.pkgdef </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pkgundef">
+            <summary> *.pkgundef </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pko">
+            <summary> *.pko </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pls">
+            <summary> *.pls </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pma">
+            <summary> *.pma </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pmc">
+            <summary> *.pmc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pml">
+            <summary> *.pml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pmr">
+            <summary> *.pmr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pmw">
+            <summary> *.pmw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._png">
+            <summary> *.png </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pnm">
+            <summary> *.pnm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pnt">
+            <summary> *.pnt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pntg">
+            <summary> *.pntg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pnz">
+            <summary> *.pnz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pot">
+            <summary> *.pot </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._potm">
+            <summary> *.potm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._potx">
+            <summary> *.potx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppa">
+            <summary> *.ppa </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppam">
+            <summary> *.ppam </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppm">
+            <summary> *.ppm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pps">
+            <summary> *.pps </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppsm">
+            <summary> *.ppsm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppsx">
+            <summary> *.ppsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ppt">
+            <summary> *.ppt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pptm">
+            <summary> *.pptm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pptx">
+            <summary> *.pptx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._prf">
+            <summary> *.prf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._prm">
+            <summary> *.prm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._prx">
+            <summary> *.prx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ps">
+            <summary> *.ps </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._psc1">
+            <summary> *.psc1 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._psd">
+            <summary> *.psd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._psess">
+            <summary> *.psess </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._psm">
+            <summary> *.psm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._psp">
+            <summary> *.psp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pst">
+            <summary> *.pst </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pub">
+            <summary> *.pub </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._pwz">
+            <summary> *.pwz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qht">
+            <summary> *.qht </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qhtm">
+            <summary> *.qhtm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qt">
+            <summary> *.qt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qti">
+            <summary> *.qti </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qtif">
+            <summary> *.qtif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qtl">
+            <summary> *.qtl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._qxd">
+            <summary> *.qxd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ra">
+            <summary> *.ra </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ram">
+            <summary> *.ram </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rar">
+            <summary> *.rar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ras">
+            <summary> *.ras </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rat">
+            <summary> *.rat </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rc">
+            <summary> *.rc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rc2">
+            <summary> *.rc2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rct">
+            <summary> *.rct </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rdlc">
+            <summary> *.rdlc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._reg">
+            <summary> *.reg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._resx">
+            <summary> *.resx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rf">
+            <summary> *.rf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rgb">
+            <summary> *.rgb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rgs">
+            <summary> *.rgs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rm">
+            <summary> *.rm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rmi">
+            <summary> *.rmi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rmp">
+            <summary> *.rmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._roff">
+            <summary> *.roff </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rpm">
+            <summary> *.rpm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rqy">
+            <summary> *.rqy </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rtf">
+            <summary> *.rtf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rtx">
+            <summary> *.rtx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._rvt">
+            <summary> *.rvt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ruleset">
+            <summary> *.ruleset </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._s">
+            <summary> *.s </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._safariextz">
+            <summary> *.safariextz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._scd">
+            <summary> *.scd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._scr">
+            <summary> *.scr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sct">
+            <summary> *.sct </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sd2">
+            <summary> *.sd2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sdp">
+            <summary> *.sdp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sea">
+            <summary> *.sea </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._searchConnector_ms">
+            <summary> *.searchConnector-ms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._setpay">
+            <summary> *.setpay </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._setreg">
+            <summary> *.setreg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._settings">
+            <summary> *.settings </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sgimb">
+            <summary> *.sgimb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sgml">
+            <summary> *.sgml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sh">
+            <summary> *.sh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._shar">
+            <summary> *.shar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._shtml">
+            <summary> *.shtml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sit">
+            <summary> *.sit </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sitemap">
+            <summary> *.sitemap </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._skin">
+            <summary> *.skin </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._skp">
+            <summary> *.skp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sldm">
+            <summary> *.sldm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sldx">
+            <summary> *.sldx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._slk">
+            <summary> *.slk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sln">
+            <summary> *.sln </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._slupkg_ms">
+            <summary> *.slupkg-ms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._smd">
+            <summary> *.smd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._smi">
+            <summary> *.smi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._smx">
+            <summary> *.smx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._smz">
+            <summary> *.smz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._snd">
+            <summary> *.snd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._snippet">
+            <summary> *.snippet </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._snp">
+            <summary> *.snp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sol">
+            <summary> *.sol </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sor">
+            <summary> *.sor </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._spc">
+            <summary> *.spc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._spl">
+            <summary> *.spl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._spx">
+            <summary> *.spx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._src">
+            <summary> *.src </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._srf">
+            <summary> *.srf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._SSISDeploymentManifest">
+            <summary> *.SSISDeploymentManifest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ssm">
+            <summary> *.ssm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sst">
+            <summary> *.sst </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._stl">
+            <summary> *.stl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sv4cpio">
+            <summary> *.sv4cpio </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._sv4crc">
+            <summary> *.sv4crc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._svc">
+            <summary> *.svc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._svg">
+            <summary> *.svg </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._swf">
+            <summary> *.swf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._step">
+            <summary> *.step </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._stp">
+            <summary> *.stp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._t">
+            <summary> *.t </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tar">
+            <summary> *.tar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tcl">
+            <summary> *.tcl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._testrunconfig">
+            <summary> *.testrunconfig </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._testsettings">
+            <summary> *.testsettings </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tex">
+            <summary> *.tex </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._texi">
+            <summary> *.texi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._texinfo">
+            <summary> *.texinfo </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tgz">
+            <summary> *.tgz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._thmx">
+            <summary> *.thmx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._thn">
+            <summary> *.thn </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tif">
+            <summary> *.tif </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tiff">
+            <summary> *.tiff </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tlh">
+            <summary> *.tlh </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tli">
+            <summary> *.tli </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._toc">
+            <summary> *.toc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tr">
+            <summary> *.tr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._trm">
+            <summary> *.trm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._trx">
+            <summary> *.trx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ts">
+            <summary> *.ts </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tsv">
+            <summary> *.tsv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ttf">
+            <summary> *.ttf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._tts">
+            <summary> *.tts </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._txt">
+            <summary> *.txt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._u32">
+            <summary> *.u32 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._uls">
+            <summary> *.uls </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._user">
+            <summary> *.user </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._ustar">
+            <summary> *.ustar </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vb">
+            <summary> *.vb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vbdproj">
+            <summary> *.vbdproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vbk">
+            <summary> *.vbk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vbproj">
+            <summary> *.vbproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vbs">
+            <summary> *.vbs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vcf">
+            <summary> *.vcf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vcproj">
+            <summary> *.vcproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vcs">
+            <summary> *.vcs </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vcxproj">
+            <summary> *.vcxproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vddproj">
+            <summary> *.vddproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vdp">
+            <summary> *.vdp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vdproj">
+            <summary> *.vdproj </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vdx">
+            <summary> *.vdx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vml">
+            <summary> *.vml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vscontent">
+            <summary> *.vscontent </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsct">
+            <summary> *.vsct </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsd">
+            <summary> *.vsd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsi">
+            <summary> *.vsi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsix">
+            <summary> *.vsix </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsixlangpack">
+            <summary> *.vsixlangpack </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsixmanifest">
+            <summary> *.vsixmanifest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsmdi">
+            <summary> *.vsmdi </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vspscc">
+            <summary> *.vspscc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vss">
+            <summary> *.vss </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsscc">
+            <summary> *.vsscc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vssettings">
+            <summary> *.vssettings </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vssscc">
+            <summary> *.vssscc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vst">
+            <summary> *.vst </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vstemplate">
+            <summary> *.vstemplate </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsto">
+            <summary> *.vsto </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsw">
+            <summary> *.vsw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vsx">
+            <summary> *.vsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vtt">
+            <summary> *.vtt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._vtx">
+            <summary> *.vtx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wasm">
+            <summary> *.wasm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wav">
+            <summary> *.wav </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wave">
+            <summary> *.wave </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wax">
+            <summary> *.wax </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wbk">
+            <summary> *.wbk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wbmp">
+            <summary> *.wbmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wcm">
+            <summary> *.wcm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wdb">
+            <summary> *.wdb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wdp">
+            <summary> *.wdp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._webarchive">
+            <summary> *.webarchive </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._webm">
+            <summary> *.webm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._webp">
+            <summary> *.webp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._webtest">
+            <summary> *.webtest </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wiq">
+            <summary> *.wiq </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wiz">
+            <summary> *.wiz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wks">
+            <summary> *.wks </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._WLMP">
+            <summary> *.WLMP </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wlpginstall">
+            <summary> *.wlpginstall </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wlpginstall3">
+            <summary> *.wlpginstall3 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wm">
+            <summary> *.wm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wma">
+            <summary> *.wma </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmd">
+            <summary> *.wmd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmf">
+            <summary> *.wmf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wml">
+            <summary> *.wml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmlc">
+            <summary> *.wmlc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmls">
+            <summary> *.wmls </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmlsc">
+            <summary> *.wmlsc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmp">
+            <summary> *.wmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmv">
+            <summary> *.wmv </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmx">
+            <summary> *.wmx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wmz">
+            <summary> *.wmz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._woff">
+            <summary> *.woff </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._woff2">
+            <summary> *.woff2 </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wpl">
+            <summary> *.wpl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wps">
+            <summary> *.wps </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wri">
+            <summary> *.wri </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wrl">
+            <summary> *.wrl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wrz">
+            <summary> *.wrz </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wsc">
+            <summary> *.wsc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wsdl">
+            <summary> *.wsdl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._wvx">
+            <summary> *.wvx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._x">
+            <summary> *.x </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xaf">
+            <summary> *.xaf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xaml">
+            <summary> *.xaml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xap">
+            <summary> *.xap </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xbap">
+            <summary> *.xbap </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xbm">
+            <summary> *.xbm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xdr">
+            <summary> *.xdr </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xht">
+            <summary> *.xht </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xhtml">
+            <summary> *.xhtml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xla">
+            <summary> *.xla </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlam">
+            <summary> *.xlam </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlc">
+            <summary> *.xlc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xld">
+            <summary> *.xld </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlk">
+            <summary> *.xlk </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xll">
+            <summary> *.xll </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlm">
+            <summary> *.xlm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xls">
+            <summary> *.xls </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlsb">
+            <summary> *.xlsb </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlsm">
+            <summary> *.xlsm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlsx">
+            <summary> *.xlsx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlt">
+            <summary> *.xlt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xltm">
+            <summary> *.xltm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xltx">
+            <summary> *.xltx </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xlw">
+            <summary> *.xlw </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xml">
+            <summary> *.xml </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xmp">
+            <summary> *.xmp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xmta">
+            <summary> *.xmta </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xof">
+            <summary> *.xof </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._XOML">
+            <summary> *.XOML </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xpm">
+            <summary> *.xpm </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xps">
+            <summary> *.xps </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xrm_ms">
+            <summary> *.xrm-ms </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xsc">
+            <summary> *.xsc </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xsd">
+            <summary> *.xsd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xsf">
+            <summary> *.xsf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xsl">
+            <summary> *.xsl </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xslt">
+            <summary> *.xslt </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xsn">
+            <summary> *.xsn </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xss">
+            <summary> *.xss </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xspf">
+            <summary> *.xspf </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xtp">
+            <summary> *.xtp </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._xwd">
+            <summary> *.xwd </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._z">
+            <summary> *.z </summary>
+        </member>
+        <member name="F:MimeTypeList.FileExtensions._zip">
+            <summary> *.zip </summary>
+        </member>
+        <member name="T:MimeTypeList.MimeTypes">
+            <summary> A list of mime types organized by namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.application">
+            <summary> Application mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.audio">
+            <summary> Audio mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.image">
+            <summary> Image mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.message">
+            <summary> Message mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.text">
+            <summary> Text mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.video">
+            <summary> Video mime type namespace. </summary>
+        </member>
+        <member name="F:MimeTypeList.MimeTypes.x_world">
+            <summary> X-World mime type namespace. </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/wagesj45/MimeTypeList/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Jordan Wages</Authors>
+    <Company />
+    <Description>Provides a hard-coded collection of file extension and mime type mapping. This project was inspired by samuelneff/MimeTypeMap. This project uses the data from that project to create classes with members for each extension and mime type for lookups.</Description>
+    <PackageProjectUrl>https://github.com/wagesj45/MimeTypeList</PackageProjectUrl>
+    <PackageTags>mime type file files</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\wages\Documents\GitHub\MimeTypeList\MimeTypeList\MimeTypeList\MimeTypeList.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
