@@ -10,7 +10,7 @@ MimeTypes.application.onenote
 
 ## Installation 
 
-You can install MimeTypeList from [Nuget.org](https://www.nuget.org/).
+You can install MimeTypeList from [Nuget.org](https://www.nuget.org/) on its [package page](https://www.nuget.org/packages/MimeTypeList/1.0.0).
 
 ## Usage
 
