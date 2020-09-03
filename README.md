@@ -31,3 +31,10 @@ Console.WriteLine(MimeTypes.application.onenote); // ".one"
 ```cs
 Console.WriteLine(FileExtensions._ruleset); // "application/xml"
 ```
+
+
+## Donations
+
+[![Donate with Trans Pay](https://support.jordanwages.com/static/donate-with-transpay-en.png)](https://support.jordanwages.com?project=3)
+
+If you would like to donate to the development of **MimeTypeList**, please direct you donation to my [patron page](https://support.jordanwages.com) (powered by Stripe) or directly via my [PayPal.Me](https://www.paypal.me/wagesj45) page. You can also donate Ethereum [to my wallet](https://etherscan.io/address/0x917f3d67e2a7ec8884d241118ee829af57cc4afd).
